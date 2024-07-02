@@ -67,9 +67,7 @@ function App() {
       </div>
       {isLoading && (
         <div className="spinner">
-          <div className="spinner-border" role="status">
-            <span className="sr-only">Loading...</span>
-          </div>
+          <div className="spinner-border" role="status"></div>
         </div>
       )}
       <div className="search-results">
